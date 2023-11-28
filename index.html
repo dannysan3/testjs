@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html language="no">
+    <head>
+        <title>Gloser</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="fransk.css">
+        <script src="fransk.js"></script>
+    </head>
+    <body onload="oppstart()">
+        <div id="hoved">
+            <h1>Gloser</h1>
+            <div id="oversikt">
+                <h2> Franske frukter </h2>
+            </div>
+            <p id="spørsmål">Hva er dette på fransk?</p>
+            <p id="scoreFelt">Poengsum: 0/3 </p>
+            <input type="text" id="svar">
+            <button id="sjekkKnapp" type="button" onclick="sjekkSvar()">Sjekk svar</button>
+            <button id="nesteKnapp" type="button" onclick="giOppgave()">Neste</button>
+            <p id="respons"></p>
+            <div id="bilde"></div>
+            <button id="provIgjenKnapp" type="button" onclick="startPaaNytt()">Start på nytt</button>
+        </div>
+    </body>
+</html>

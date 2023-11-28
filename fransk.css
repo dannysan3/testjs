@@ -1,0 +1,11 @@
+#hoved{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom:100%;
+    background-color:white;
+    text-align: center;
+    border: 10px solid;
+}
+body{
+    background-image:"flagg.jpeg";
+}
